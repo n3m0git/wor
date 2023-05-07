@@ -1,0 +1,101 @@
+
+/* Navigation
+----------------------------------------------- */
+
+.main-navigation {
+	display: none;
+	z-index: 800;
+	
+	ul {
+		margin: 30px 0 0;
+		padding: 0;
+		text-align: center;
+		
+		li {
+			display: block;
+			margin: 0 5px;
+			padding: 15px 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
+			
+			a {
+				color: $med-gray;
+				letter-spacing: 0.15em;
+				padding: 0;
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: all 0.15s ease-in-out;
+				@include font-size(0.8);
+				&:hover {
+					color: $off-white;
+				}
+
+				&.active {
+					color: $off-white;
+				}
+
+				&.active-loader {
+					position: relative;
+					&:after {
+						background: url('../folio/assets/images/puff.svg') no-repeat;
+						background-size: 20px 20px;
+						margin-left: -12px;
+						position: absolute;
+						top: -25px; left: 50%;
+						content: '';
+						height: 20px;
+						width: 20px;
+					}
+				}
+			}
+			
+			.children,
+			.dropdown-menu {
+				display: block;
+				margin: 0;
+				padding: 10px 0;
+				text-align: center;
+				width: 100%;
+
+				
+				li {
+					display: block;
+					float: none;
+					margin: 0;
+					padding: 15px 10px;
+					text-align: center;
+					@include font-size(0.8);
+				}
+
+				a {
+					color: darken($med-gray, 15%);
+				}
+			}
+		}
+	}
+}
+
+.ajax-pages-loader {
+	display: none;
+	position: absolute;
+	top: 35px; right: 50px;
+	z-index: 999999;
+	img {
+		background: $dark-gray;
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+	}
+}
+
+/* menu icon */
+
+.js-menu-icon {
+	cursor: pointer;
+	position: absolute;
+	top: 10px; right: 20px;
+	z-index: 999999;
+	@include font-size(2);
+}

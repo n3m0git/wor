@@ -1,0 +1,49 @@
+
+/* Typography
+----------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 0.05em;
+	line-height: 1.3;
+	margin: 10px 0 5px;
+	padding: 0;
+}
+
+h1 {
+	color: #e1e1e1;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	text-align: left;
+	text-transform: uppercase;
+	@include font-size(1.5);
+}
+
+h6 {
+	text-transform: uppercase;
+}
+
+p {
+	letter-spacing: 0.05em;
+	line-height: 2;
+	margin: 10px 0 15px 0;
+	padding: 0;
+}
+
+a {
+	color: lighten($light-gray, 30%);
+	font-weight: 400;
+}
+
+ul, ol {
+	li {
+		letter-spacing: 0.05em;
+		line-height: 1.5;
+	}
+}
+
+blockquote {
+	font-style: italic;
+	line-height: 1.4;
+	text-align: center;
+	@include font-size(1.8);
+}

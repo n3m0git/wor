@@ -1,0 +1,190 @@
+
+/* Comments
+----------------------------------------------- */
+
+.comments-area {
+	margin: 30px auto;
+	max-width: 700px;
+	width: 100%;
+}
+
+.comments-title {
+	color: $white;
+	font-weight: 400;
+	margin: 20px 0 10px;
+	padding: 20px 0 0;
+	text-align: left;
+	text-transform: uppercase;
+	@include font-size(1.2);
+}
+
+.comment-body {
+	border-bottom: 1px solid $dark-gray;
+	color: $smoke;
+	font-weight: 300;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.comment-entry {
+	float: left;
+	width: 100%;
+}
+
+.comment-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.avatar {
+	border-radius: 50%;
+	float: left;
+	height: auto;
+	padding: 10px;
+	width: 100px;
+	&::after {
+		@include clearfix;
+	}
+}
+
+.comment-author {
+	color: $smoke;
+	margin: 0;
+	padding: 20px 0 0;
+}
+
+.comment-date {
+	color: $smoke;
+	margin: 0;
+	padding: 0;
+	@include font-size(1.5);
+}
+
+.logged-in-as {
+	color: $smoke;
+	font-weight: 300;
+	@include font-size(0.9);
+	a {
+		color: $smoke;
+	}
+}
+
+.commentmetadata {
+	a {
+		color: $smoke;
+		text-decoration: none;
+		@include font-size(0.8);
+	}
+}
+
+/* Comment Respond */
+
+.comment-reply-title {
+	color: $smoke;
+	@include font-size(1);
+	small {
+		font-weight: 300;
+		@include font-size(1);
+	}
+}
+
+#cancel-comment-reply-link {
+	color: white;
+}
+
+.comment-respond {
+	margin: 60px auto;
+	width: 100%;
+}
+
+.comment-form {
+	width: 100%;
+}
+
+.form-control {
+	background: #3c3c3f;
+	border: none;
+	color: darken(white, 10%);
+	display: block;
+	font-weight: 300;
+	margin: 8px 0 0;
+	outline: none;
+	overflow: hidden;
+	padding: 10px 13px;
+	width: 70%;
+	z-index: 1;
+	@include font-size(1);
+}
+
+textarea.form-control {
+	width: 100%;
+}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-comment {
+	label {
+		color: $smoke;
+		font-weight: 300;
+		padding: 0 0 20px;
+	}
+}
+
+.comment-form-comment {
+	label {
+		color: $smoke;
+		font-weight: 300;
+		padding: 0 0 20px;
+	}
+	textarea {
+		background: #3c3c3f;
+		border-radius: 0;
+	}
+}
+
+.comment-notes {
+	color: $smoke;
+	font-weight: 300;
+	padding-bottom: 30px;
+	@include font-size(1);
+}
+
+.required {
+	color: $smoke; 
+}
+
+.btn-primary {
+	background: none;
+	border: 2px solid $white;
+	color: $white;
+	padding: 8px 0;
+	text-align: center;
+	transition: all 0.15s linear;
+	width: 100%;
+	&:hover {
+		background: $dark-gray;
+	}
+}
+
+.reply {
+	clear: both;
+	margin: 20px 0;
+	text-align: right;
+	text-transform: uppercase;
+	@include font-size(1);
+	a {
+		text-decoration: none;
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+cite.fn {
+	font-style: normal;
+}
+
+.children {
+	list-style: none;
+}

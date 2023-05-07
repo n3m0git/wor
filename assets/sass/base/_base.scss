@@ -1,0 +1,170 @@
+
+/* Basic Setup
+----------------------------------------------- */
+
+body {
+	background: $gray;
+	font-family: 'Lato', sans-serif;
+	height: auto;
+	width: auto;
+	word-wrap: break-word;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	height: auto;
+	vertical-align: middle;
+	max-width: 100%;
+	width: 100%;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+a img.alignright {
+	float: right;
+	margin: 5px 0 5px 20px;
+	width: auto;
+}
+a img.alignnone {
+	margin: 5px 20px 5px 0;
+	width: auto;
+}
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 5px 0;
+	width: auto;
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+.wp-caption {
+	background: none;
+	border: none;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 5px 10px;
+	text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 10px 4px 5px;
+}
+.sticky,
+.gallery-caption,
+.bypostauthor {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Form styling
+ */
+
+/* Gravity Forms */
+
+.gfield .textarea,
+.gfield input,
+.gform_button.button {
+	color: #000;
+}
+
+.gform_button.button {
+	margin: 0;
+	padding: 10px 0;
+}
+
+/* Jetpack Forms */
+
+.pushbutton-wide,
+.contact-form textarea,
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+	color: #000;
+	padding: 5px 0;
+}
+
+.pushbutton-wide {
+	border: none;
+	border-radius: 0;
+	padding: 10px 20px;
+}
+
+/* Contact Form 7 */
+
+.wpcf7-form-control {
+	color: #000;
+	padding: 5px 0;
+	&.wpcf7-textarea {
+		width: 100%;
+	}
+	&.wpcf7-submit {
+		border: none;
+		border-radius: 0;
+		padding: 10px 20px;
+	}
+}
+
+
+/* Ninja Forms */
+
+.ninja-forms-field {
+	color: #000;
+	padding: 5px 0;
+	&[type="submit"] {
+		border: none;
+		border-radius: 0;
+		padding: 10px 20px;
+	}
+}

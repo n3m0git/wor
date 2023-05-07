@@ -1,0 +1,353 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Folio\n"
+"POT-Creation-Date: 2016-02-12 18:43+0000\n"
+"PO-Revision-Date: 2016-02-12 18:43+0000\n"
+"Last-Translator: Jeremy <jeremy@press75.com>\n"
+"Language-Team: Jeremy <jeremy@press75.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:24
+msgid "It looks like the page you&rsquo;re looking for doesn&rsquo;t exist."
+msgstr ""
+
+#: comments.php:23
+#, php-format
+msgid "One response on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:30 comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31 comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Name"
+msgstr ""
+
+#: comments.php:80
+msgid "Email"
+msgstr ""
+
+#: content-none.php:11
+msgid "Currently, there are no posts."
+msgstr ""
+
+#: content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:24
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:24 content-single.php:53 image.php:54
+#: inc/template-tags.php:48 inc/template-tags.php:68
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:33 content-single.php:36
+msgid ", "
+msgstr ""
+
+#: content-single.php:40
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:42
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: footer.php:22
+#, php-format
+msgid "Copyright %s by"
+msgstr ""
+
+#: footer.php:23
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:24
+msgid "Press 75"
+msgstr ""
+
+#: footer.php:26
+#, php-format
+msgid "&middot; Folio - A %s Theme by %s"
+msgstr ""
+
+#: functions.php:50
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:75
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:81
+msgid "All"
+msgstr ""
+
+#: image.php:32
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: image.php:48
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:49
+msgid "Full resolution"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Primary Site Color"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Secondary Site Color"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Filter Background Color"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Filter or Infinite Scroll"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Add filter and remove infinite scroll."
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Standard Page Linking."
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Links for social icons"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:304
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:318
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customizer.php:360
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:362
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:387
+msgid "Latest Posts - Category"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:9
+msgid "Remove Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:10
+msgid "Choose an Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:11
+msgid "Set as Your Image"
+msgstr ""
+
+#: inc/customizer/advanced-upload-control.php:12
+msgid "Pick or Upload Image"
+msgstr ""
+
+#: inc/extras.php:124
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Youtube or Vimeo URL"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "All categories"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:59
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:210
+#, php-format
+msgid "<span>Browsing Category: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:212
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/template-tags.php:214
+#, php-format
+msgid "<span>Browsing Tags: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:216 inc/template-tags.php:218
+#: inc/template-tags.php:220
+#, php-format
+msgid "<span>Archive For: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:222
+#, php-format
+msgid "<span>Search Results For: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:224
+#, php-format
+msgid "<span>Posts By: </span> %s"
+msgstr ""
+
+#: inc/template-tags.php:226
+msgid "<span>Browsing: </span> Blog Archives"
+msgstr ""
+
+#: index.php:51
+msgid "<span class=\"dashicons dashicons-arrow-left-alt2\"></span>"
+msgstr ""
+
+#: index.php:52
+msgid "<span class=\"dashicons dashicons-arrow-right-alt2\"></span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Folio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.press75.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Folio Theme by Press75"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Press75"
+msgstr ""

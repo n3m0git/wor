@@ -1,0 +1,40 @@
+/**
+Theme Name: Folio
+Theme URI: http://www.press75.com/
+Author: Press75
+Author URI: http://www.press75.com/
+Description: Folio Theme by Press75
+Version: 3.4.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: folio
+Tags:
+*/
+
+@import "variables.scss";
+
+@import "base/reset.scss";
+@import "base/mixins.scss";
+@import "base/grid.scss";
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "theme/comments.scss";
+
+@import "theme/header.scss";
+@import "theme/nav.scss";
+@import "theme/primary.scss";
+@import "theme/footer.scss";
+@import "theme/isotope.scss";
+@import "theme/gallery.scss";
+@import "theme/widgets.scss";
+@import "theme/magnificpopup.scss";
+
+@media (min-width: $screen-sm) {
+	@import "theme/tablet.scss";
+}
+@media (min-width: $screen-md) {
+	@import "theme/tablet-landscape.scss";
+}
+@media (min-width: $screen-lg) {
+	@import "theme/large-screens.scss";
+}

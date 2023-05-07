@@ -1,0 +1,146 @@
+
+/* Tablet
+----------------------------------------------- */
+
+.site-header {
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.site-branding {
+	margin: 0;
+	padding-left: 30px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 0 50px 0 10px;
+
+	img {
+		display: block;
+	}
+}
+
+.site-description,
+.site-description-nologo {
+	text-align: left;
+}
+
+.main-navigation {
+	display: block !important;
+	padding-right: 60px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+
+	ul {
+		margin: 0;
+		text-align: right;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 10px 15px;
+
+			a {
+				padding: 0;
+			}
+
+			.children,
+			.dropdown-menu {
+				background: $light-gray;
+				border: 1px solid $gray;
+				display: none;
+				margin-top: 10px;
+				padding: 5px;
+				position: absolute;
+				width: 130px;
+				overflow: hidden;
+				
+				li {
+					display: block;
+					float: none;
+					padding: 5px;
+					text-align: left;
+					@include font-size(0.8);
+				}
+
+				a {
+					color: $med-gray;
+					&.active-loader {
+						position: relative;
+						&:after {
+							background: url('../folio/assets/images/puff.svg') no-repeat;
+							background-size: 10px 10px;
+							float: right;
+							position: relative;
+							top: 5px; left: auto; right: -5px;
+							content: '';
+							height: 10px;
+							width: 10px;
+						}
+					}
+				}
+			}
+			
+			&:hover {
+				
+				ul {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.js-menu-icon {
+	display: none;
+} 
+
+.item {
+	width: 50%;
+}
+
+.item-content-container {
+	opacity: 0;
+}
+
+.item:hover .item-content-container {
+	opacity: 1;
+}
+
+.close {
+	right: 40px;
+}
+
+.single-content-area {
+	padding: 40px 0 100px;
+}
+
+.btn-primary {
+	max-width: 180px;
+	width: 100%;
+}
+
+.pagination {
+	padding: 0;
+}
+
+.footer {
+	padding: 15px 0 5px;
+}
+
+.footer-left p {
+	text-align: left;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+.comment-form {
+	width: 70%;
+}
+.mfp-image-holder .mfp-content {
+  max-width: 60%; }

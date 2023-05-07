@@ -1,0 +1,102 @@
+
+/* Isotope
+----------------------------------------------- */
+
+.isotope {
+	display: none;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 120px;
+    overflow: hidden;
+    width: 100%;
+
+    &::after {
+    	@include clearfix;
+    }
+}
+
+.no-js .isotope {
+	display: block;
+}
+
+.isotope-load {
+	background: url(../folio/assets/images/puff.svg) no-repeat;
+	background-size: 100%;
+	border: none;
+	height: 60px;
+	margin-left: -30px;
+	outline: none;
+	position: absolute;
+	top: 100px; left: 50%;
+	width: 60px;
+}
+
+#masonry-fit-width .isotope {
+  margin: 0 auto;
+}
+
+/* .item */
+
+.item {
+	margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    &::after {
+    	@include clearfix;
+    }
+}
+
+.item-content-container {
+	background: rgba($gray, 0.7);
+	opacity: 1;
+	position: absolute;
+	text-align: center;
+	top: 0; right: 0; bottom: 0; left: 0;
+	transition: all 0.35s ease-in-out;
+}
+
+.item:hover .item-content-container {
+	opacity: 1;
+}
+
+.item-content {
+	opacity: 1;
+	position: absolute;
+	top: 50%; left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+
+	p {
+		color: $white;
+		display: block;
+		font-weight: 200;
+		letter-spacing: 0.05em;
+		line-height: 1.4;
+		margin: 0;
+		padding: 0 15px;
+		text-transform: uppercase;
+		@include font-size(0.8);
+	}
+}
+
+.icon-video-icon,
+.icon-pictures,
+.icon-single-picture {
+	display: block;
+	fill: $white;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 20px;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}

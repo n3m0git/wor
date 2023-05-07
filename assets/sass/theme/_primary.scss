@@ -1,0 +1,196 @@
+
+/* Primary
+----------------------------------------------- */
+
+.site {
+	&::after {
+		@include clearfix;
+	}
+}
+
+.content-area {
+	height: 100%;
+	position: relative;
+	&::after {
+		@include clearfix;
+	}
+}
+
+/* load pages */
+
+.js-load-pages {
+	background: rgba(#ccc, 0.98);
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	z-index: 500;
+}
+
+.load-page-title {
+	color: $dark-gray;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1;
+	margin: 20px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	@include font-size(1.5);
+}
+
+.single-content-area {
+	background: #525256;
+	padding: 40px 20px 100px;
+}
+
+.page-content-area {
+	background: rgba(204, 204, 204, 0.98);
+	padding: 40px 20px 100px;
+}
+
+.load-page-content {
+	color: $light-gray;
+	font-weight: 200;
+	line-height: 2;
+	margin: 0 auto;
+	padding: 20px 20px 40px;
+	max-width: 700px;
+	width: 100%;
+	a {
+		color: $dark-gray;
+	}
+}
+
+.post-edit-link {
+	color: lighten($light-gray, 30%);
+}
+
+.entry-header {
+	padding: 20px 30px;
+}
+
+.entry-title,
+.page-title {
+	color: $smoke;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+	text-align: center;
+	text-transform: uppercase;
+	@include font-size(1.5);
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.entry-content {
+	color: #e1e1e1;
+	font-weight: 200;
+	line-height: 2;
+	margin: 0 auto;
+	padding: 0 0 20px;
+	max-width: 700;
+	width: 100%;
+}
+
+.featured-image {
+	margin: 50px 0 30px;
+}
+
+.entry-footer,
+.page-footer {
+	color: white;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding: 20px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.btn-email {
+	background: none;
+	border: 1px solid $dark-gray;
+	color: $dark-gray;
+	display: block;
+	font-weight: 600;
+	margin: 20px auto 0;
+	outline: none;
+	padding: 2px;
+	text-transform: uppercase;
+	transition: all 0.35s ease-in-out;
+	width: 130px;
+	@include font-size(1.2);
+}
+
+.close {
+	border-radius: 50%;
+	color: $dark-gray;
+	cursor: pointer;
+	height: 38px;
+	position: absolute;
+	top: 20px; right: 5px;
+	width: 38px;
+	@include font-size(1.2);
+}
+
+.icon-close {
+	fill: lighten($dark-gray, 15%);
+	height: 30px;
+	width: 30px;
+}
+
+.dashicons {
+	color: white;
+	margin-bottom: 5px;
+}
+
+/* infinite scroll loader */
+
+#infscr-loading {
+	background: url(../folio/assets/images/puff.svg) no-repeat;
+	background-size: 100%;
+	border: none;
+	height: 60px;
+	margin-left: -30px;
+	outline: none;
+	position: absolute;
+	bottom: 50px; left: 50%;
+	width: 60px;
+}
+
+.not-found {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.attachment-meta {
+	color: $smoke;
+	font-weight: 300;
+}
+
+.entry-meta {
+	color: white;
+	text-align: center;
+}
+
+.button {
+	border: 2px solid $smoke;
+	color: $smoke;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	margin: 40px auto 20px;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 120px;
+	@include font-size(0.75);
+}
+
+.load-page-content {
+	.button {
+		border: 2px solid $dark-gray;
+		color: $dark-gray;
+	}
+}

@@ -1,0 +1,23 @@
+.accordion-section-content .advanced-thumbnail {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	max-width: 100%;
+}
+.customize-control-advancedUpload {
+	margin-bottom: 15px;
+}
+.customize-control-advancedUpload .advanced-thumbnail + a {
+	display: block;
+}
+
+/**
+ * The Customizer and the Media Modal wind up in a z-index war of attrition
+ * that the Customizer currently wins. End the MADness.
+ */
+.wp-core-ui .media-modal {
+	z-index: 500002;
+}
+.wp-core-ui .media-modal-backdrop {
+	z-index: 500001;
+}
+

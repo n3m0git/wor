@@ -1,0 +1,79 @@
+
+/* Header
+----------------------------------------------- */
+
+.site-header {
+	position: relative;
+	background: $gray;
+	padding: 15px 0;
+	&::after {
+		@include clearfix;
+	}
+}
+
+.site-title {
+	letter-spacing: 0.05em;
+	padding: 0;
+	margin: 0;
+	
+	a {
+		text-decoration: none;
+		transition: all 0.35s ease-in-out;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.site-branding {
+	margin: 0 20px 0 0; 
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 80px;
+}
+
+.site-description,
+.site-description-nologo {
+	color: $light-gray;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	padding: 0;
+	text-align: center;
+	@include font-size(0.7);
+}
+
+/* filters */
+
+.filter-group {
+	background: darken($dark-gray, 2%);
+	text-align: center;
+	width: 100%;
+
+	button {
+		background: none;
+		border: none;
+		color: #c5c5c6;
+		outline: none;
+		letter-spacing: 0.05em;
+		margin-right: 15px;
+		padding: 20px 0 25px;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		@include font-size(0.7);
+
+		&.active {
+			color: white;
+			&::after {
+				border: 1px solid white;
+				content: "";
+				position: absolute;
+				bottom: 15px; left: 0;
+				width: 90%;
+			}
+		}
+	}
+}

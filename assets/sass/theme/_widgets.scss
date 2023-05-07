@@ -1,0 +1,40 @@
+
+/* Widgets
+----------------------------------------------- */
+
+.widget-area {
+	color: $light-gray;
+	margin: 100px 0 0 0;
+	padding: 0 40px;
+
+	ul {
+		li {
+
+		}
+		a {
+			color: $light-gray;
+			text-decoration: none;
+		}
+	}
+}
+
+.widget-title {
+	color: $light-gray;
+}
+
+.screen-reader-text {
+	display: block;
+	margin: 5px 0;
+}
+
+.searchform input {
+	background: $light-gray;
+	border: none;
+}
+
+.searchform input[type="submit"] {
+	background: $light-gray;
+	border: none;
+	color: $dark-gray;
+	@include font-size(0.9);
+}
